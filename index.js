@@ -19,7 +19,7 @@ app.use('/usuarios', usuarios)
 app.use('/videojuegos', videojuegos)
 
 
-app.listen(process.env.Puerto,()=>{
+app.listen(process.env.PUERTO,()=>{
 
     logger.info('servidor levantado');
 })
